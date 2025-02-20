@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/signup_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@color/lightGray">
+
+    <!-- App Logo -->
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_app_logo"
+        android:contentDescription="@string/app_logo_desc"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Name Field -->
+    <EditText
+        android:id="@+id/nameField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/full_name"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:drawableStart="@drawable/ic_person"
+        android:drawablePadding="10dp"
+        android:inputType="textPersonName"/>
+
+    <!-- Date of Birth Field -->
+    <EditText
+        android:id="@+id/dobField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/date_of_birth"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:drawableStart="@drawable/ic_calendar"
+        android:drawablePadding="10dp"
+        android:inputType="date"/>
+
+    <!-- Email Field -->
+    <EditText
+        android:id="@+id/emailField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/email"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="10dp"
+        android:inputType="textEmailAddress"
+        android:importantForAccessibility="yes"/>
+
+    <!-- Mobile Number Field -->
+    <EditText
+        android:id="@+id/mobileField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/mobile_number"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:drawableStart="@drawable/ic_phone"
+        android:drawablePadding="10dp"
+        android:inputType="phone"
+        android:importantForAccessibility="yes"/>
+
+    <!-- Password Field -->
+    <EditText
+        android:id="@+id/passwordField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/password"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:drawableStart="@drawable/ic_password"
+        android:drawablePadding="10dp"
+        android:inputType="textPassword"
+        android:importantForAccessibility="yes"/>
+
+    <!-- Sign Up Button -->
+    <Button
+        android:id="@+id/signupButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/sign_up"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_background"
+        android:padding="12dp"
+        android:minHeight="48dp"
+        android:importantForAccessibility="yes"
+        android:contentDescription="@string/signup_button"/>
+
+    <!-- Login Link -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginLink"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/loginLink"
+        android:textColor="#f00"
+        android:layout_gravity="center"/>
+</LinearLayout>

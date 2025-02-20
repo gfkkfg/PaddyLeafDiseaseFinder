@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/paddy_leaf_disease_finder"
+        android:textSize="24sp"
+        android:textColor="@color/primaryColor"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center" />
+
+    <!-- TextView to display the "Select Language" prompt -->
+    <TextView
+        android:id="@+id/text_select_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_language"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_below="@id/title"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentStart="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:id="@+id/language_selection"
+        android:layout_below="@+id/text_select_language">
+
+        <!-- Button for selecting English language -->
+        <Button
+            android:id="@+id/btn_english"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:text="@string/english" />
+
+        <!-- Button for selecting Tamil language -->
+        <Button
+            android:id="@+id/btn_tamil"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:text="@string/tamil" />
+
+        <!-- Button for selecting Hindi language -->
+        <Button
+            android:id="@+id/btn_hindi"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:text="@string/hindi" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdditionalDetailsFragment">
+
+    <!-- Additional Details title -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/additionaldetails"
+        android:textSize="20sp"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollview"
+        android:layout_marginTop="15dp">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/disease_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Disease: "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/confidence_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Confidence: "
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/image_preview"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop" />
+
+            <!-- Disease Details -->
+            <TextView
+                android:id="@+id/details_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:paddingBottom="8dp" />
+
+            <!-- Disease Symptoms -->
+            <TextView
+                android:id="@+id/symptoms_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:paddingBottom="8dp" />
+
+            <!-- Disease Causes -->
+            <TextView
+                android:id="@+id/causes_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:paddingBottom="8dp" />
+
+            <!-- Disease Management -->
+            <TextView
+                android:id="@+id/management_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:paddingBottom="8dp" />
+
+            <!-- Disease Prevention -->
+            <TextView
+                android:id="@+id/prevention_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:paddingBottom="8dp" />
+
+            <!-- Share PDF -->
+            <Button
+                android:id="@+id/sharePDF"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="@string/sharePDF"
+                android:layout_margin="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/green"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#263238</color> <!-- Dark Blue-Gray for text -->
+    <color name="white">#FFFFFF</color> <!-- White for backgrounds/text -->
+    <color name="lightGray">#E0E0E0</color> <!-- Light Gray for subtle backgrounds -->
+    <color name="darkTextColor">#1B1B1B</color> <!-- Dark color for primary text -->
+    <color name="colorPrimaryDark">#1565C0</color> <!-- Darker Blue for status bars and other dark areas -->
+    <color name="green">#66BB6A</color> <!-- Light Green for accents -->
+    <color name="textColorPrimary">#424242</color> <!-- Medium Gray for text -->
+    <color name="textColorSecondary">#9E9E9E</color> <!-- Light Gray for secondary text -->
+    <color name="bottom_nav_color">#FF7043</color> <!-- Orange for bottom navigation -->
+    <color name="colorPrimary">#6200EE</color> <!-- Example primary color -->
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="red">#f00</color> <!-- White background color -->
+    <color name="backgroundColor">#F5F5F5</color>
+    <color name="primaryColor">#33691E</color>
+    <color name="textPrimary">#212121</color>
+    <color name="textSecondary">#757575</color>
+    <color name="buttonColor">#FF5722</color>
+    <color name="colorAccent">#FFC107</color>
+    <color name="colorRipple">#FFECB3</color>
+</resources>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Paddy Leaf Disease Finder</string>
+    <string name="app_logo" translatable="false">pldf</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="app_logo_desc" translatable="false">app logo</string>
+    <string name="full_name">Full Name</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="captured_image">Captured Image</string>
+    <string name="detect">Detect</string>
+    <string name="capture">Capture Image</string>
+    <string name="settings">Settings</string>
+    <string name="home">Home</string>
+    <string name="info">Info</string>
+    <string name="camera_preview">Camera preview</string>
+    <string name="detect_disease">Detect Disease</string>
+    <string name="language_changed">Language Changed</string>
+    <string name="english">English</string>
+    <string name="tamil">தமிழ்</string>
+    <string name="select_language">Select Language</string>
+    <string name="hindi">हिंदी</string>
+    <string name="enable_dark_mode" translatable="false">Enable Dark Mode</string>
+    <string name="profile">Profile</string>
+    <string name="title">Paddy Leaf Detection</string>
+    <string name="switch_theme">Switch Theme</string>
+    <string name="mobile_field">Mobile Number</string>
+    <string name="email_field">Email Id</string>
+    <string name="signup_button">Sign up Button</string>
+
+    <string-array name="language_options">
+        <item>@string/english</item>
+        <item>@string/tamil</item>
+        <item>@string/hindi</item>
+    </string-array>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">Welcome!</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="dont_have_account_signup">Don\'t have Account! Signup</string>
+    <string name="loginLink">Already have an account go to Login</string>
+
+    <string name="additionaldetails">Additional Details</string>
+    <string name="details_not_available">Disease details not available.</string>
+    <string name="detection_result">Detection Result</string>
+    <string name="additional_details">Additional Details</string>
+    <string name="paddy_leaf_disease_finder">Paddy Leaf Disease Finder</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="logout_successful">Logout Successfully</string>
+    <string name="please_log_in">Please log in to access other features</string>
+    <string name="error_name_required">Enter Name</string>
+    <string name="error_dob_required">Enter Date of Birth</string>
+    <string name="error_invalid_email">Enter Valid Email</string>
+    <string name="error_mobile_required">Enter Mobile No</string>
+    <string name="error_password_required">Enter Password</string>
+    <string name="error_signup_failed">Signup failed: </string>
+    <string name="error_saving_data">Error saving user data: </string>
+    <string name="success_signup">User registered successfully!</string>
+
+    <string name="disease">Disease</string>
+    <string name="date">Date</string>
+    <string name="confidence">Confidence: %.2f%%</string>
+    <string name="location">Location</string>
+
+    <string name="language_english">English</string>
+    <string name="language_tamil">தமிழ்</string>
+    <string name="language_hindi">हिंदी</string>
+
+    <string name="capture_or_upload">Please capture or upload an image first.</string>
+    <string name="disease_detected">Disease Detected: %1$s</string>
+    <string name="error_detecting_disease">Error detecting disease: %1$s</string>
+    <string name="user_not_logged_in">User not logged in.</string>
+    <string name="detection_saved">Detection history saved successfully.</string>
+    <string name="save_failed">Failed to save detection history.</string>
+    <string name="error_creating_image_file">Error creating image file: %1$s</string>
+    <string name="no_camera_found">No camera application found.</string>
+
+    <string name="failed_to_load_history">Failed to load history.</string>
+    <string name="error_email_required">Email is required</string>
+    <string name="login_successful">Login successful</string>
+    <string name="login_failed">Login failed: </string>
+
+    <!-- Bacterial Leaf Blight Disease Details -->
+    <string name="blb_details">Bacterial Leaf Blight (BLB) is a serious disease in rice, caused by the bacterium Xanthomonas oryzae pv. oryzae. It primarily affects the leaves, leading to reduced photosynthesis, lower grain quality, and yield loss. The disease is commonly found in tropical and subtropical rice-growing regions, especially during warm, wet, or humid conditions.</string>
+    <string name="blb_symptoms">"Symptoms:\n1. Water-soaked lesions at the leaf margins that expand and turn yellowish-brown.\n2. Blighting of leaves which appears as long, streaky brown lesions.\n3. Infected leaves may curl, wilt, and die prematurely, causing a burnt appearance in the paddy field.\n4. Reduced tiller growth and stunted plant development in severe cases."</string>
+    <string name="blb_causes">"Causes and Spread:\n- BLB bacteria spread through rain splash, irrigation water, infected seeds, and contaminated tools.\n- Warm, wet conditions promote bacterial growth.\n- Plant injuries, poor drainage, and excessive nitrogen fertilizer use increase susceptibility.</string>
+    <string name="blb_management">"Management and Control Measures:\n1. Cultural Practices:\n- Field Sanitation: Clean fields of debris and infected plant residues to minimize bacteria sources.\n- Crop Rotation: Avoid continuous rice cultivation in the same field; rotate with non-host crops.\n- Seed Selection: Use disease-free seeds to prevent infection.\n- Balanced Fertilization: Avoid overuse of nitrogen; balanced fertilizers strengthen plant immunity.\n\n2. Resistant Varieties:\n- Use BLB-resistant rice varieties if available, as these can significantly reduce disease incidence.\n\n3. Chemical and Biological Control:\n- Copper-based fungicides: Apply copper-based sprays as a preventive measure, especially in high-risk areas.\n- Bactericides: Use bactericides carefully, following recommended guidelines.\n- Biological Control: Beneficial microbes like certain strains of Pseudomonas fluorescens may suppress bacterial growth.\n\n4. Water Management:\n- Proper irrigation management can reduce the spread of bacteria, especially by avoiding water splashes.\n\n5. Integrated Pest Management (IPM):\n- Combine cultural, biological, and chemical control measures to manage BLB sustainably. Regular field inspections help early detection and timely intervention.</string>
+    <string name="blb_prevention">"Preventive Measures for Future:\n- Educate farmers about early symptoms to facilitate quick action.\n- Train farmers in IPM practices and the correct application of bactericides.\n- Encourage the use of disease-resistant varieties and high-quality seeds.\n\nImplementing these methods can help minimize BLB's impact, improve crop health, and enhance rice productivity.</string>
+
+    <!-- Bacterial Leaf Streak Disease Details -->
+    <string name="bls_details">Bacterial Leaf Streak (BLS) is a common rice disease caused by the bacterium Xanthomonas oryzae pv. oryzicola. It primarily affects the leaves, leading to reduced photosynthesis, lower yield, and quality loss. The disease is prevalent in tropical and subtropical regions, especially under warm, humid conditions.</string>
+    <string name="bls_symptoms">"Symptoms:\n1. Water-soaked streaks along the leaf veins that turn yellowish-brown.\n2. Blighting of leaves with elongated brown streaks.\n3. Infected leaves may dry out, leading to a scorched appearance in fields.\n4. In severe cases, stunted plant growth and reduced tillering."</string>
+    <string name="bls_causes">"Causes and Spread:\n- BLS bacteria spread through rain splash, wind, and irrigation water.\n- Contaminated seeds and farming tools can also transmit the disease.\n- Warm, humid conditions favor bacterial growth, and plant injuries increase susceptibility."</string>
+    <string name="bls_management">"Management and Control Measures:\n1. Cultural Practices:\n- Field Sanitation: Remove and dispose of infected plant residues to reduce bacteria sources.\n- Crop Rotation: Avoid continuous rice planting in the same field; rotate with non-host crops.\n- Seed Selection: Use certified disease-free seeds.\n- Balanced Fertilization: Avoid excessive nitrogen application to reduce susceptibility.\n\n2. Resistant Varieties:\n- Use BLS-resistant rice varieties, which can significantly lower disease incidence.\n\n3. Chemical and Biological Control:\n- Copper-based fungicides: Apply copper-based sprays as a preventive measure in high-risk areas.\n- Bactericides: Use according to recommended guidelines.\n- Biological Control: Certain beneficial bacteria may suppress BLS pathogen growth.\n\n4. Water Management:\n- Regulate irrigation to reduce water splashing, which can spread bacteria.\n\n5. Integrated Pest Management (IPM):\n- Combine cultural, chemical, and biological methods for sustainable management. Regular monitoring of fields for early detection allows timely intervention."</string>
+    <string name="bls_prevention">"Preventive Measures for Future:\n- Educate farmers about early symptoms for quick action.\n- Promote IPM practices and proper use of bactericides.\n- Encourage the use of disease-resistant varieties and high-quality seeds.\n\nApplying these methods can reduce the impact of BLS, improve crop health, and enhance rice productivity."</string>
+
+    <!-- Bacterial Panicle Blight Disease Details -->
+    <string name="bpb_details">Bacterial Panicle Blight (BPB) is a destructive disease in rice, caused by the bacterium Burkholderia glumae. It affects the panicle and grains, leading to reduced grain quality, empty panicles, and poor yields. The disease is most common in tropical and subtropical regions during hot and humid conditions.</string>
+    <string name="bpb_symptoms">"Symptoms:\n1. Discoloration of the panicle, which becomes pale yellow or brown.\n2. Shriveled, empty grains that do not fill properly.\n3. Water-soaked lesions on the grains and glumes.\n4. Affected grains may become sterile or infected, leading to poor grain development and yield loss.\n5. In severe cases, the entire panicle may turn brown and wither, leading to reduced rice productivity."</string>
+    <string name="bpb_causes">"Causes and Spread:\n- BPB bacteria are primarily spread by rain splash, contaminated irrigation water, and infected seeds.\n- High humidity and temperatures above 30°C favor the development of the disease.\n- The bacteria are often carried by wind, tools, and contaminated equipment.\n- Fields with poor drainage and excessive nitrogen application are more susceptible to BPB."</string>
+    <string name="bpb_management">"Management and Control Measures:\n1. Cultural Practices:\n- Field Sanitation: Remove and destroy infected plant residues and panicles after harvest.\n- Crop Rotation: Rotate rice cultivation with non-host crops to reduce bacterial buildup in the soil.\n- Proper Irrigation: Avoid excessive irrigation during flowering and grain-filling stages.\n- Balanced Fertilization: Use proper nitrogen levels and avoid excess nitrogen that promotes bacterial growth.\n\n2. Resistant Varieties:\n- Use rice varieties that are resistant to BPB if available, as they help reduce disease impact.\n\n3. Chemical and Biological Control:\n- Chemical Control: Copper-based fungicides and bactericides may be applied during the flowering stage, but they should be used according to recommended guidelines.\n- Biological Control: The use of beneficial microbes, such as certain strains of Bacillus spp., can suppress bacterial growth.\n\n4. Water Management:\n- Proper water management and controlled irrigation during the flowering period are crucial to preventing the spread of BPB.\n\n5. Integrated Pest Management (IPM):\n- Combine cultural practices, chemical, and biological control methods to effectively manage BPB. Regular field monitoring is essential for early disease detection and timely intervention."</string>
+    <string name="bpb_prevention">"Preventive Measures for Future:\n- Educate farmers about early symptoms to enable quick intervention.\n- Promote the use of disease-resistant rice varieties and good agricultural practices.\n- Regularly monitor fields for signs of BPB during the flowering stage.\n- Encourage farmers to manage irrigation effectively and avoid excessive nitrogen use.\n\nImplementing these preventive measures can help reduce the incidence of BPB, protect rice yields, and improve overall rice quality."</string>
+
+    <!-- Blast Disease Details -->
+    <string name="blast_details">Blast is a major disease in rice, caused by the fungus Magnaporthe oryzae. It affects the leaves, neck, and panicles of the rice plant, leading to reduced photosynthesis, poor grain formation, and yield loss. The disease is found worldwide, particularly in tropical and subtropical rice-growing regions, especially during warm and humid conditions.</string>
+    <string name="blast_symptoms">"Symptoms:\n1. Water-soaked lesions appear on the leaves, which later turn grayish-white with a dark brown or black border.\n2. Affected leaves may dry out and die prematurely, causing the rice plant to become weak.\n3. In severe cases, panicles and necks of rice plants may also be infected, leading to 'neck blast' where the panicle collapses and the grains fail to fill.\n4. Rice plants may show characteristic diamond-shaped lesions on the leaves and stem, reducing overall plant growth and grain quality."</string>
+    <string name="blast_causes">"Causes and Spread:\n- Blast fungus spreads primarily through rain splash, contaminated water, seeds, and tools.\n- Warm, humid weather conditions, especially with temperatures between 25°C and 30°C, promote fungal growth.\n- The disease is more severe in dense rice plantings, poor irrigation systems, and fields with high nitrogen levels.\n- The fungus can survive in the soil and on infected plant debris, enabling it to infect subsequent crops." </string>
+    <string name="blast_management">"Management and Control Measures:\n1. Cultural Practices:\n- Field Sanitation: Remove and destroy infected plant debris and rice residues to reduce the fungal inoculum.\n- Crop Rotation: Rotate rice with non-host crops to reduce fungal buildup in the soil.\n- Proper Spacing: Avoid overcrowding rice plants to improve air circulation and reduce humidity around plants.\n- Proper Irrigation: Avoid over-irrigating during the flowering period to prevent the spread of the disease.\n\n2. Resistant Varieties:\n- Use blast-resistant rice varieties if available. These varieties significantly reduce the disease's impact.\n\n3. Chemical and Biological Control:\n- Fungicides: Apply fungicides at the recommended stages, especially during the early flowering phase, to prevent infection.\n- Biological Control: Use beneficial microbes like Trichoderma spp. or Bacillus spp. to suppress fungal growth.\n\n4. Integrated Pest Management (IPM):\n- Combine cultural, chemical, and biological control measures to manage blast disease effectively. Regular monitoring and early detection are essential for timely intervention." </string>
+    <string name="blast_prevention">"Preventive Measures for Future:\n- Educate farmers about early symptoms and proper disease management practices.\n- Promote the use of blast-resistant rice varieties and proper field sanitation.\n- Encourage timely application of fungicides and integrated pest management (IPM) practices.\n- Advise farmers on managing irrigation effectively to avoid excess moisture during the flowering period.\n\nBy implementing these preventive measures, farmers can reduce the impact of blast disease, improve rice yields, and enhance overall productivity."</string>
+
+    <!-- Brown Spot Disease Details -->
+    <string name="brown_spot_details">Brown Spot is a serious fungal disease of rice caused by the fungus Cochliobolus miyabeanus. It affects the leaves, leading to the formation of dark brown spots, which results in reduced photosynthesis, lower grain quality, and yield loss. The disease is prevalent in tropical and subtropical regions, especially during high humidity and rainy seasons.</string>
+    <string name="brown_spot_symptoms">"Symptoms:\n1. Small, dark brown to black lesions appear on the leaves, usually surrounded by a yellow halo.\n2. The lesions grow larger, leading to the formation of irregular, angular spots with dark centers and yellowish edges.\n3. In severe cases, the lesions may coalesce, causing large necrotic areas on the leaves.\n4. Reduced tiller production, stunted growth, and poor grain formation may occur, leading to yield loss." </string>
+    <string name="brown_spot_causes">"Causes and Spread:\n- Brown Spot is caused by the fungus Cochliobolus miyabeanus, which spreads through infected plant debris, water, and seeds.\n- The disease thrives in wet, humid conditions, especially when temperatures are between 24°C to 30°C.\n- Poor soil fertility, excessive nitrogen fertilizer use, and inadequate water drainage can increase the susceptibility of rice plants to the disease." </string>
+    <string name="brown_spot_management">"Management and Control Measures:\n1. Cultural Practices:\n- Field Sanitation: Remove and destroy infected plant residues to minimize the inoculum for the next crop.\n- Crop Rotation: Rotate rice with non-host crops to reduce fungal buildup in the soil.\n- Balanced Fertilization: Avoid excessive nitrogen fertilization, which can increase disease susceptibility.\n\n2. Resistant Varieties:\n- Use resistant rice varieties if available, which can reduce the impact of the disease.\n\n3. Chemical Control:\n- Fungicides: Apply fungicides recommended for controlling Brown Spot, particularly during the early stages of the disease.\n- Chemical control should be used as part of an integrated pest management strategy to avoid resistance development.\n\n4. Water Management:\n- Proper irrigation and drainage practices help to control the spread of Brown Spot by preventing water stagnation.\n\n5. Integrated Pest Management (IPM):\n- Combine cultural, chemical, and biological control measures to manage Brown Spot effectively. Regular monitoring of the crop is necessary for timely intervention." </string>
+    <string name="brown_spot_prevention">"Preventive Measures for Future:\n- Educate farmers on recognizing early symptoms of Brown Spot to ensure early intervention.\n- Promote the use of resistant varieties and proper irrigation management.\n- Train farmers in balanced fertilization practices to prevent the overuse of nitrogen and reduce disease risk.\n- Regularly inspect fields for disease outbreaks and apply fungicides as needed.\n\nBy following these preventive practices, farmers can minimize the impact of Brown Spot disease, leading to healthier crops and better yields."</string>
+
+    <!-- Dead Heart Disease Details -->
+    <string name="dead_heart_details">"Dead Heart is a serious pest-related disease in rice caused by the larvae of the rice stem borer (Scirpophaga excerptalis and Scirpophaga excerptalis). The larvae infest the plant's growing point, causing the heart of the plant to wither and die. This leads to reduced tiller production, stunted growth, and significant yield loss. The disease is commonly found in regions with high humidity, and warm, wet conditions favor the spread of the pest."</string>
+    <string name="dead_heart_symptoms">"Symptoms:\n1. Yellowing and wilting of the leaves near the growing point of the rice plant.\n2. The central leaf of the plant turns white and dry, giving the plant the appearance of a "dead heart".\n3. Infected plants fail to produce tillers or flower heads, leading to a significant reduction in yield.\n4. Premature death of the plant in severe infestations.\n5. Presence of rice stem borer larvae inside the stem of the plant, visible when the stem is cut open." </string>
+    <string name="dead_heart_causes">"Causes and Spread:\n- Dead Heart is caused by the larvae of rice stem borers (Scirpophaga excerptalis and Scirpophaga excerptalis), which bore into the rice stem and feed on the growing tissue.\n- The pests are spread through contaminated rice seeds, farm tools, and wind-blown crop residues.\n- The disease is most common in rice-growing areas during the early stages of plant growth when the pest larvae feed on tender, young plants.\n- High humidity, warm temperatures, and poor water management contribute to the development of the pest population." </string>
+    <string name="dead_heart_management">"Management and Control Measures:\n1. Cultural Practices:\n- Timely planting: Plant rice at the correct time to reduce pest populations.\n- Field Sanitation: Remove and destroy infected crop residues to minimize pest habitat.\n- Crop Rotation: Rotate rice with non-host crops to break the pest's life cycle.\n- Proper irrigation: Avoid excessive irrigation, which may favor pest development.\n\n2. Biological Control:\n- Natural predators: Use natural predators such as parasitic wasps to control the rice stem borer population.\n- Introduce biological control agents that can target rice stem borer larvae.\n\n3. Chemical Control:\n- Pesticides: Use recommended insecticides to control rice stem borer infestations. Apply during the early stages of pest development, especially during the egg or larval stages.\n\n4. Resistant Varieties:\n- Use rice varieties resistant to rice stem borers if available to minimize the damage caused by the pest.\n\n5. Integrated Pest Management (IPM):\n- Combine cultural, biological, and chemical control methods for effective management. Regular field inspections will help detect pest outbreaks early and prevent severe damage." </string>
+    <string name="dead_heart_prevention">"Preventive Measures for Future:\n- Educate farmers on early identification of rice stem borer larvae and the symptoms of Dead Heart disease.\n- Train farmers in proper irrigation management and field sanitation practices to reduce pest spread.\n- Promote the use of resistant rice varieties to minimize pest damage.\n- Encourage the use of biological control agents such as parasitic wasps.\n- Regularly monitor fields and apply pesticides as needed to control rice stem borer infestations.\n\nImplementing these preventive measures will reduce the incidence of Dead Heart disease, improve rice plant health, and increase yield potential."</string>
+
+    <!-- Downy Mildew Disease Details -->
+    <string name="downy_mildew_details">"Downy Mildew is a fungal disease caused by the pathogen *Peronosclerospora spp.* It is one of the most common diseases in rice, primarily affecting the leaves and panicles. The disease is characterized by yellowing and necrosis of the leaves, stunting of plant growth, and in severe cases, death of the plant. The disease thrives under humid, warm conditions and is often seen during the early growth stages of rice."</string>
+    <string name="downy_mildew_symptoms">"Symptoms:\n1. Yellow or pale green lesions that appear on the upper side of the leaves, with the underside showing white, fuzzy fungal growth.\n2. White, downy growth under humid conditions, visible on the lower side of leaves.\n3. Reduced growth of the plant, with a reduction in tiller formation.\n4. Premature aging and wilting of affected plants.\n5. Infected plants may develop malformed panicles and reduced grain formation." </string>
+    <string name="downy_mildew_causes">"Causes and Spread:\n- Downy Mildew is caused by the fungus *Peronosclerospora spp.*, which infects rice plants during warm and humid conditions.\n- The disease spreads via infected seeds, wind, water, and farm tools.\n- Spores of the fungus are dispersed during wet conditions, especially when there is rainfall or excessive irrigation.\n- The disease can also spread from infected crop residues that remain in the field." </string>
+    <string name="downy_mildew_management">"Management and Control Measures:\n1. Cultural Practices:\n- Field Sanitation: Remove and destroy infected plant residues to prevent the spread of the pathogen.\n- Crop Rotation: Rotate rice with non-host crops to break the disease cycle.\n- Proper Irrigation: Avoid excessive irrigation and waterlogging, as this favors fungal growth.\n\n2. Resistant Varieties:\n- Use resistant rice varieties, if available, to minimize the impact of Downy Mildew.\n\n3. Fungicide Application:\n- Fungicides: Apply fungicides containing metalaxyl, mefenoxam, or other effective compounds to control the spread of the fungus.\n- Early application is essential when symptoms first appear to reduce fungal spread.\n\n4. Biological Control:\n- Use of biocontrol agents such as *Trichoderma* species may help control fungal growth and reduce infection in the field.\n\n5. Integrated Disease Management (IDM):\n- Combine cultural, chemical, and biological control methods for effective disease management. Regular field monitoring is essential for early detection." </string>
+    <string name="downy_mildew_prevention">"Preventive Measures for Future:\n- Educate farmers about the early symptoms of Downy Mildew to enable quick action.\n- Use clean, disease-free seeds to reduce the risk of initial infection.\n- Promote the use of resistant rice varieties to reduce disease incidence.\n- Proper water management and adequate spacing between rice plants can reduce humidity levels that favor fungal growth.\n- Train farmers on effective fungicide use and proper application timing.\n\nImplementing these preventive measures can help reduce the impact of Downy Mildew and improve rice yields." </string>
+
+    <!-- Hispa Disease Details -->
+    <string name="hispa_details">"Hispa is a serious pest problem in rice, caused by the Hispa beetle (*Dicladispa armigera*). The larvae of this pest damage the rice leaves by feeding on the leaf tissue, causing characteristic silvery streaks. Hispa damage often leads to reduced photosynthesis, stunted growth, and reduced yields. The pest is most active during the warm and rainy season, making rice plants particularly vulnerable."</string>
+    <string name="hispa_symptoms">"Symptoms:\n1. Silver or white streaks on the leaves caused by feeding of the Hispa larvae.\n2. The upper leaves may show significant damage and become transparent.\n3. Brownish patches on the leaves, leading to complete defoliation in severe cases.\n4. Infected plants are weak, with reduced growth and lower grain production." </string>
+    <string name="hispa_causes">"Causes and Spread:\n- The Hispa beetle lays eggs on rice plants, and the larvae hatch to feed on the leaf tissues.\n- The pest spreads quickly under favorable conditions, such as wet and humid climates.\n- Spread occurs through contaminated seed, wind, or irrigation water." </string>
+    <string name="hispa_management">"Management and Control Measures:\n1. Cultural Practices:\n- Field Sanitation: Remove and destroy infested plant debris and weeds that harbor Hispa.\n- Early Planting: Early planting helps reduce the risk of infestation.\n\n2. Chemical Control:\n- Insecticides: Apply insecticides like cypermethrin, permethrin, or imidacloprid at the correct timings to control the pest.\n- Regularly monitor fields to detect early infestation and apply pesticides when necessary.\n\n3. Biological Control:\n- Natural predators like spiders, ladybugs, and predatory beetles may help reduce Hispa populations.\n\n4. Resistant Varieties:\n- Use rice varieties resistant to Hispa if available." </string>
+    <string name="hispa_prevention">"Preventive Measures for Future:\n- Use certified, pest-free seeds to avoid initial infestations.\n- Maintain field hygiene by removing infected plant residues.\n- Regularly inspect fields for signs of Hispa and take prompt action to control pest populations.\n- Adopt integrated pest management (IPM) to control Hispa in a sustainable way." </string>
+
+    <!-- Normal Disease Details -->
+    <string name="normal_leaf_disease_details">"Normal Leaf Disease is a term used to describe a variety of fungal, bacterial, and viral infections that cause leaf damage in rice. The symptoms usually include yellowing, wilting, and necrosis of the leaves, which can severely impact photosynthesis. Conditions such as high humidity and poor air circulation promote the development of this disease."</string>
+    <string name="normal_leaf_disease_symptoms">"Symptoms:\n1. Yellowing of the leaf tips, which may later spread throughout the leaf.\n2. Leaf blight or streaks appearing as dark lesions.\n3. Premature leaf death, leading to reduced plant growth and yield loss.\n4. Infected plants show stunted growth and poor tiller formation." </string>
+    <string name="normal_leaf_disease_causes">"Causes and Spread:\n- Fungal spores, bacterial pathogens, and viral infections are the primary causes.\n- Infections spread through infected seed, water, and contact with contaminated tools.\n- Poor field sanitation and high humidity favor disease development." </string>
+    <string name="normal_leaf_disease_management">"Management and Control Measures:\n1. Cultural Practices:\n- Field Sanitation: Clean fields by removing infected plant debris.\n- Crop Rotation: Rotate rice with other crops to reduce disease pressure.\n\n2. Chemical Control:\n- Fungicides and Bactericides: Apply appropriate chemicals when symptoms first appear to reduce infection rates.\n\n3. Resistant Varieties:\n- Use resistant rice varieties if available to reduce disease occurrence." </string>
+    <string name="normal_leaf_disease_prevention">"Preventive Measures for Future:\n- Practice crop rotation and maintain proper field sanitation.\n- Use certified seeds that are disease-free to prevent initial infection.\n- Regularly monitor fields for early signs of leaf disease and apply treatment promptly." </string>
+
+    <!-- Tungro Disease Details -->
+    <string name="tungro_details">"Tungro is a viral disease caused by the Tungro virus, transmitted by leafhopper insects. It is a serious problem in rice fields, leading to yellowing of the leaves, stunted growth, and reduced yields. Tungro disease is most common in tropical areas and is spread primarily through the feeding activities of infected leafhoppers."</string>
+    <string name="tungro_symptoms">"Symptoms:\n1. Yellowing of leaves, especially younger leaves, which turn orange or red.\n2. Reduced plant growth and stunting, with plants appearing weak and unhealthy.\n3. Infected rice panicles show poor grain formation and can lead to complete crop failure in severe cases.\n4. Plants may develop a yellowish-green pattern, especially under stress conditions." </string>
+    <string name="tungro_causes">"Causes and Spread:\n- The Tungro virus is transmitted by the leafhopper insect (*Nephotettix virescens*), which feeds on infected plants and spreads the virus to healthy plants.\n- The disease spreads quickly during the rainy season when leafhoppers are abundant.\n- Infected plants serve as a source of the virus for further transmission." </string>
+    <string name="tungro_management">"Management and Control Measures:\n1. Cultural Practices:\n- Early Planting: Plant rice earlier to avoid peak leafhopper activity during the rainy season.\n- Use clean, virus-free seeds and remove infected plants from the field.\n\n2. Chemical Control:\n- Insecticides: Apply insecticides to control the leafhopper population and reduce the spread of the virus.\n- Timing insecticide applications to coincide with leafhopper feeding activity is crucial.\n\n3. Resistant Varieties:\n- Use rice varieties that are resistant to Tungro virus if available." </string>
+    <string name="tungro_prevention">"Preventive Measures for Future:\n- Educate farmers about the importance of early planting and control of leafhoppers.\n- Regularly monitor rice fields for leafhopper activity and apply insecticides accordingly.\n- Practice field sanitation and destroy infected plants to prevent further spread of the virus." </string>
+
+    <string name="sharePDF">Share PDF</string>
+
+    <!-- App Info -->
+    <string name="app_info_title">App Info</string>
+    <string name="app_info">
+        "\t\tThis application, Paddy Leaf Disease Detection, is designed to help farmers and agricultural researchers identify various diseases in paddy leaves.\n\t\tBy using advanced image recognition technology, the app analyzes leaf images and provides accurate disease predictions along with confidence levels.\n\t\tIt also offers detailed information about the detected diseases and provides guidance on symptoms, causes, prevention, and management."</string>
+
+    <!-- App Guidance -->
+    <string name="app_guidance_title">App Guidance</string>
+    <string name="app_guidance">
+        "1. Open the application.\n2. Capture a photo of the paddy leaf using the camera or upload an image from the gallery.\n3. Wait for the app to process the image and provide disease predictions.\n4. View the confidence level and detailed information about the detected disease.\n5. Navigate to additional details for symptoms, causes, prevention, and management tips.\n6. Optionally, generate and share a detailed PDF report.\n7. Users can see a history of previous disease predictions for reference and comparison."
+    </string>
+</resources>
