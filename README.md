@@ -20,7 +20,7 @@ Paddy cultivation is one of the most crucial agricultural activities, but variou
 ## 🛠️ Technologies Used  
 - **Python** (Machine Learning Model - TensorFlow/Keras)  
 - **OpenCV** (Image Processing)  
-- **Android (Java/Kotlin)** (Mobile Application)  
+- **Android (Java)** (Mobile Application)  
 - **Firebase** (Cloud Storage for Images & Predictions)  
 
 ## 🌾 How It Helps Farmers  
